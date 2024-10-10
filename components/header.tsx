@@ -26,6 +26,11 @@ const Header = () => {
                 Portfolio
               </Link>
             </li>
+            <li>
+              <Link href="/contact" className="hover:text-silver">
+                Contact
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

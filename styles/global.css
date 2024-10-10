@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  background: #2E2E2E;
-}
-::-webkit-scrollbar-thumb {
-  background: #C0C0C0;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 /* Animations */
 @keyframes fadeIn {
   from {
@@ -36,6 +21,7 @@
     opacity: 1;
   }
 }
+
 .animate-fadeIn {
   animation: fadeIn 1.5s ease-in-out forwards;
 }
@@ -51,6 +37,16 @@ body {
 }
 
 :root {
-  --background: #1A1A1A;
+  --background: #2D2D2D; /* Updated for a softer look */
   --foreground: #E5E5E5;
+}
+
+/* Section Styles */
+section {
+  @apply py-20 px-4 md:px-10; /* Padding for sections */
+}
+
+/* Gradient Background for Hero Section */
+.hero {
+  @apply bg-gradient-to-r from-darkGray to-gray-800;
 }
