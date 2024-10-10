@@ -50,3 +50,20 @@ section {
 .hero {
   @apply bg-gradient-to-r from-darkGray to-gray-800;
 }
+/* Custom Card Styles */
+.card {
+  @apply bg-gray-800 p-8 rounded-lg shadow-md transition-transform duration-300;
+}
+
+.card:hover {
+  @apply scale-105 shadow-2xl;
+}
+
+/* Button Styles */
+button, .button {
+  @apply bg-silver text-darkGray py-2 px-4 rounded-md transition duration-200 ease-in-out shadow-md;
+}
+
+button:hover, .button:hover {
+  @apply bg-gray-600 transform scale-105;
+}

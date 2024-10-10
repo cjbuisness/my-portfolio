@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "Project One",
+      "description": "A web application built with React and Node.js.",
+      "technologies": ["React", "Node.js", "Tailwind CSS", "HTML", "Typecript"],
+      "link": "https://github.com/cjbuisness"
+    },
+    {
+      "title": "Project Two",
+      "description": "An email blast utilizing custom templates",
+      "technologies": ["Python", "HTML", "CSV"],
+      "link": "https://github.com/cjbuisness"
+    },
+    {
+      "title": "Project Three",
+      "description": "A mobile application developed with React Native (soon).",
+      "technologies": ["React Native", "Expo"],
+      "link": "https://github.com/cjbuisness"
+    }
+  ]
+}
