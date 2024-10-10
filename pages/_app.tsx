@@ -5,9 +5,9 @@ import '../styles/global.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col bg-darkGray text-white">
       <Header />
-      <main className="p-8 min-h-screen bg-darkGray text-white">
+      <main className="flex-1 p-8">
         <Component {...pageProps} />
       </main>
       <Footer />
