@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-darkGray text-white;
+  }
+  
+  h1, h2 {
+    @apply font-bold text-silver;
+  }
+  
+  a {
+    @apply underline text-silver;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #2E2E2E;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C0C0C0;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
