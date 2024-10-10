@@ -13,7 +13,7 @@ const Home = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-5xl font-bold text-white mb-10 animate-slideUp">About Me</h2> 
           <p className="text-xl text-silver max-w-2xl mx-auto">
-            I&apos;m a software engineer building scalable solutions...
+            I&apos;m a software engineer building scalable solutions.
           </p>
         </div>
       </section>

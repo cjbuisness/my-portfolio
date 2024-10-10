@@ -1,18 +1,17 @@
 import { useState, useEffect } from 'react';
 
-// Define the interface for a project
 interface Project {
   title: string;
   description: string;
-  technologies: string[]; // Added for better future reference
-  link: string; // Added to access project links
+  technologies: string[];
+  link: string;
 }
 
 const Portfolio = () => {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    fetch('/data/portfolio.json') // This should work if portfolio.json is in public/data
+    fetch('/data/portfolio.json') 
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);
