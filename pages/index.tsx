@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Home = () => {
   return (
@@ -23,9 +24,9 @@ const Home = () => {
             I&apos;m a software engineer building scalable solutions.
           </p>
           {/* Add a Call-to-Action Button */}
-          <a href="/portfolio" className="btn btn-black mt-4">
+          <Link href="/portfolio" className="btn btn-black mt-4">
             View My Work
-          </a>
+          </Link>
         </div>
       </section>
 

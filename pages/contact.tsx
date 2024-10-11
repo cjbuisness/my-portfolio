@@ -48,7 +48,7 @@ const Contact = () => {
             <textarea
               placeholder="Your Message"
               className="block w-full p-3 mb-4 bg-gray-600 text-gray-200 rounded-md focus:outline-none focus:ring focus:ring-gray-500"
-              rows={4} // Corrected to pass a number
+              rows={4} 
               required
             ></textarea>
             <button type="submit" className="w-full bg-silver text-darkGray py-2 rounded-md shadow-md transition duration-200 ease-in-out hover:bg-gray-600 transform scale-105">
